@@ -7,3 +7,12 @@ C:\Users\Roberto\Documents\Visual Studio 2013\Projects\EncriptadorDeMensagens\En
 C:\Users\Roberto\Documents\Visual Studio 2013\Projects\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.csproj.GenerateResource.Cache
 C:\Users\Roberto\Documents\Visual Studio 2013\Projects\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.exe
 C:\Users\Roberto\Documents\Visual Studio 2013\Projects\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.pdb
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\bin\Debug\EncriptadorDeMensagens.exe.config
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.exe
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.pdb
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\bin\Debug\EncriptadorDeMensagens.exe
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\bin\Debug\EncriptadorDeMensagens.pdb
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.csprojResolveAssemblyReference.cache
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.frmPrincipal.resources
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.Properties.Resources.resources
+C:\Users\Roberto\Documents\GitHub\CriptografiaDeTextos_TextEncryption\EncriptadorDeMensagens\EncriptadorDeMensagens\obj\Debug\EncriptadorDeMensagens.csproj.GenerateResource.Cache

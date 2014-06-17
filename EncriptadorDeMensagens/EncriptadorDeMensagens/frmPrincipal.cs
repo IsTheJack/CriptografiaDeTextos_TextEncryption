@@ -39,6 +39,7 @@ namespace EncriptadorDeMensagens
             }
             else
             {
+                InverterArray(false);
                 sinal = -1;
             }
       
@@ -85,10 +86,14 @@ namespace EncriptadorDeMensagens
                 }
             }
 
+            if (criptografar)
+            {
+                InverterArray(true);
+            }
             TextoParaCaixa();
         }
 
-        public void TextoParaCaixa()
+        public void TextoParaCaixa()  
         {
             for (int i = 0; i < tamanho; i++)
             {
@@ -98,9 +103,31 @@ namespace EncriptadorDeMensagens
             sequencia = "";
         }
 
+        private void InverterArray(bool criptografar)
+        {
+            if (criptografar)
+            {
+                Array.Reverse(arrayNumeroChar);
+            }
+            else
+            {
+                for (int i = 0; i < txtMensagem.Text.Count(); i++)
+                {
+                    arrayNumeroChar[i] = Convert.ToInt32(Convert.ToChar(txtMensagem.Text.Substring(i, 1)));
+                }
+                Array.Reverse(arrayNumeroChar);
+                TextoParaCaixa();
+            }
+        }
+
         private void btnAjuda_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(txtMensagem.Text.Count().ToString());
+            string mensagem = "Para criptografar uma mensagem, basta escreve-la\n";
+            mensagem += "na caixa de texto e clicar no botão 'Criptografar'.\n";
+            mensagem += "Para descriptografar uma mensagem, basta inserir\n";
+            mensagem += "uma mensagem criptografada na caixa de texto e\n";
+            mensagem += "clicar no botão 'Decodificar'.";
+            MessageBox.Show(mensagem, "Ajuda:", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnCriptografar_Click(object sender, EventArgs e)
