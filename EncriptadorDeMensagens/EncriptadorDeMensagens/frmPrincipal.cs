@@ -15,7 +15,7 @@ namespace EncriptadorDeMensagens
             InitializeComponent(); //Construtor
         }
 
-        public void Criptografar()
+        private void Criptografar()
         {
             OperacaoDaCriptografia(true);
         }
@@ -27,7 +27,7 @@ namespace EncriptadorDeMensagens
 
         //Se o valor do argumento do método abaixo for verdadeiro, ele criptografará,
         //caso contrário, fará a ação inversa.
-        public void OperacaoDaCriptografia(bool criptografar) 
+        private void OperacaoDaCriptografia(bool criptografar) 
         {
             tamanho = txtMensagem.Text.Count();
             arrayNumeroChar = new int[tamanho];
@@ -93,7 +93,7 @@ namespace EncriptadorDeMensagens
             TextoParaCaixa();
         }
 
-        public void TextoParaCaixa()  
+        private void TextoParaCaixa()  
         {
             for (int i = 0; i < tamanho; i++)
             {
